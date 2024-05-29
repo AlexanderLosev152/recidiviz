@@ -1,0 +1,51 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    padding-top: 190px;
+    padding-bottom: 40px;
+    min-height: 776px;
+    @include bg("../../images/hero/hero__bg.jpg");
+    background-position: center;
+    background-size: cover;
+
+    &__content {
+        grid-column: 6 span;
+    }
+    &__title {
+        margin-bottom: 29px;
+    }
+    &__descr {
+        margin-bottom: 29px;
+    }
+    &__bottom-container {
+        margin-top: auto;
+        width: 100%;
+    }
+    &__subtitle {
+        margin-bottom: 15px;
+    }
+    &__item {
+        grid-column: 2 span;
+    }
+    &__link {
+        display: block;
+        border-top: 1px solid rgba(255, 255, 255, 0.6);
+        padding-top: 1rem;
+        transition: border-color .3s, color .3s;
+
+        &:focus {
+            outline: none;
+
+        }
+
+        @include hover {
+            border-color: var(--accent-color);
+            color: var(--accent-color);
+        }
+
+        &:active {
+            border-color: var(--active-color);
+            color: var(--active-color);
+        }
+    }
+}

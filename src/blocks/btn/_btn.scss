@@ -1,0 +1,27 @@
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 80px;
+    padding: 17px 33px;
+    line-height: 20px;
+    letter-spacing: 0.02px;
+    transition: border-color .3s, background-color .3s;
+
+    &:focus {
+        outline: none;
+
+    }
+
+    @include hover {
+        border-color: var(--accent-color);
+        background-color: var(--accent-color);
+
+    }
+
+    &:active {
+        border-color: var(--active-color);
+        background-color: var(--active-color);
+    }
+}

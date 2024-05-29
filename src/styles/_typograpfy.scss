@@ -1,0 +1,29 @@
+// html {
+//     font-size: var(--font-size);
+//     line-height: 1.5;
+//   }
+// @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: var(--font-family);
+  color: var(--light-color);
+  font-weight: var(--font-weight)
+}
+
+
+h1 {
+  font-family: var(--second-family);
+  font-size: 38px;
+  line-height: 44px;
+  letter-spacing: 1.2px;
+}
+
+h2 {
+  font-size: 15px;
+  line-height: 24px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 28px;
+}

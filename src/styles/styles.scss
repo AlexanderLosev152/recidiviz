@@ -1,0 +1,15 @@
+@import "normalize.css/normalize";
+
+@import "reset";
+@import "variables";
+@import "mixins";
+@import "fonts";
+@import "base";
+@import "typograpfy";
+@import "media";
+@import "container";
+
+
+@import "swiper/swiper-bundle.min";
+
+@import "../blocks/**/*.scss";
